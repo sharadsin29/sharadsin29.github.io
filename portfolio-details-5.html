@@ -198,6 +198,17 @@
       myVideo.playbackRate = 2; // 1.5x playback speed
     };
   </script>
+  <script>
+    window.addEventListener("scroll", function() {
+      var footer = document.getElementById("footer");
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        // you're at the bottom of the page
+        footer.style.opacity = 1;
+      } else {
+        footer.style.opacity = 0;
+      }
+    });
+    </script>
 
 </body>
 
