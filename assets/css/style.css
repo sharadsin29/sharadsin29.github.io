@@ -749,6 +749,20 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Achievements
+--------------------------------------------------------------*/
+.achievement-img {
+  width: 100%;  /* This will make the image take full width of the parent div */
+  height: auto; /* This will keep the image's aspect ratio */
+  object-fit: cover; /* This will cover the area with the image */
+  transition: transform .2s; /* Animation */
+}
+
+.achievement-img:hover {
+  transform: scale(1.1);  /* This will slightly enlarge the image when hovered */
+}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
