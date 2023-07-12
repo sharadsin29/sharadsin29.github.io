@@ -759,7 +759,7 @@ section {
 }
 
 .achievement-img:hover {
-  transform: scale(1.1);  /* This will slightly enlarge the image when hovered */
+  transform: scale(1.05);  /* This will slightly enlarge the image when hovered */
 }
 
 /*--------------------------------------------------------------
